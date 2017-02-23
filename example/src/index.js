@@ -20,7 +20,7 @@ class App extends React.Component {
 		    value: null
 		  }
 		}, this)
-		media.init(this)
+		media.init(this, {xs: 400})
 	}
 	render() {
 		return (
